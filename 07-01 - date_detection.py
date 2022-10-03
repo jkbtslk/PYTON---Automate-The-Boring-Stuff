@@ -24,10 +24,7 @@ def date_checker(date):
 
     if month == 4 or 6 or 9 or 11 and day == 31:
         print("False! Too many days in a month!")
-
-
-
-
+        
     elif month == 2:
         if day > 28 and year % 4 != 0:
             print("False! February can't have more than 29 days in non-leap years!")
