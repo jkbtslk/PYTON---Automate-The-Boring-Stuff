@@ -3,10 +3,8 @@
 Regex Search
 Write a program that opens all .txt files in a folder and searches for any line that matches a user-supplied regular expression.
 he results should be printed to the screen.
-09-02 - regex_search.py
 """
 
-09-02 - regex_search.py
 import os, re
 # Gather user's path and regex.
 pathUser = input("Please input a path: ")
